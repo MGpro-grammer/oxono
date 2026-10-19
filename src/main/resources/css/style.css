@@ -1,0 +1,48 @@
+.cell {
+    -fx-border-color: black;
+    -fx-background-color: lightgray;
+}
+
+.cell-selected, .cell {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+}
+
+.cell-green {
+    -fx-border-color: green;
+    -fx-background-color: lightgreen;
+}
+
+.cell-red {
+    -fx-border-color: red;
+    -fx-background-color: pink;
+}
+
+.button-hold {
+    -fx-font-size: 16px;
+    -fx-text-fill: #800000;
+    -fx-font-weight: bold;
+
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+.image-button > .image-view {
+    -fx-fit-height: 25px;
+    -fx-fit-width: 30px;
+}
+
+.image-piece {
+    -fx-fit-height: 50px;
+    -fx-fit-width: 50px;
+}
+
+config-size {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 300px;
+}
+
+.view-board, .view-config, .view-data {
+    -fx-alignment: top-center;
+    -fx-padding: 20px;
+}
